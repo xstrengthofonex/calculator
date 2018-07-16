@@ -6,3 +6,48 @@ body {
 h1 {
     text-align: center;
 }
+
+
+#calculator{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#display {
+    width: 94%;
+    margin: 6px 1%;
+    padding: 12px 2%;
+    background-color: #2ecc71;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    text-align: right;
+}
+
+button {
+    border: none;
+    background-color: #ecf0f1;
+    width: 23%;
+    margin: 6px 1%;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #bdc3c7;
+}
+
+#clear {
+    width: 73%; 
+}
+
+#equals {
+    width: 48%;   
+}
